@@ -1,4 +1,4 @@
-# Recipe Book
+# Recipe Book 
 
 ## Topics
 
@@ -23,7 +23,7 @@ The requirements for the system, as stated by the client are:
 
 In addition to the `migrations` and `seeding` scripts, write a data access file that **exports** an object with the following functions:
 
-- `getDishes()`: should return a list of all dishes in the database.
+x `getDishes()`: should return a list of all dishes in the database.
 - `addDish(dish)`: should add the **dish** to the database and return the `id` of the new **dish**.
 - `getDish(id)`: should return the **dish** with the provided `id` and include a list of the related recipes.
 - `getRecipes()`: should return a list of all recipes in the database including the **dish** they belong to.
